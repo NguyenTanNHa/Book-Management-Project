@@ -1,0 +1,10 @@
+import numpy as np
+x = np.array([[1,2],[3,4],])
+y = np.array([[5,6],[7,8],])
+v = np.array([1,0])
+w = np.array([0,1])
+print(v.dot(w))
+print(x.dot(v))
+print(y.dot(w))
+print(x.dot(y))
+print(np.linalg.inv(x))
